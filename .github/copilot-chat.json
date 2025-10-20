@@ -1,0 +1,17 @@
+{
+  "actions": [
+    {
+      "name": "Get Salesforce Analysis",
+      "description": "Fetches Opportunity analysis from the MCP Salesforce server.",
+      "command": "get-salesforce-analysis",
+      "args": [],
+      "http": {
+        "method": "GET",
+        "url": "http://localhost:3000/analysis",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}
